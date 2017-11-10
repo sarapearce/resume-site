@@ -1,0 +1,279 @@
+/*
+ Theme Name:   Twenty Fourteen Child - Florida Strong
+ Theme URI:    http://sarapearce.net/wp-content/themes/twenty-fourteen-child/
+ Description:  Twenty Fourteen Child Theme by Sara Pearce
+ Author:       Sara Pearce
+ Author URI:   http://sarapearce.net
+ Template:     twentyfourteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+
+//elements
+html {
+    margin-top: 0px !important;
+}
+
+h2{
+    font-weight: 400;
+}
+
+h4 {
+    text-align: left;
+}
+
+body {
+    background: white;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+td {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+footer {
+    background: white;
+}
+
+//classes
+
+.header-main {
+    background: white;
+}
+
+.menu-item a {
+    color: black;
+
+}
+.site-footer {
+    background: transparent;
+    height: 200px;
+}
+
+.content-sidebar .widget .widget-title {
+    border-top: none;
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 0 18px;
+    padding-top: 7px;
+    text-transform: uppercase;
+}    
+
+.content-area {
+    padding-top: 0px;
+}
+
+.top-text {
+    padding-top: 24px;
+}
+
+.bottom-text {
+    padding-bottom: 24px;
+}
+
+.link {
+    color: #00adef;
+}
+
+.link:hover {
+    color: #810113;
+}
+
+.pipe-group {
+    background: url("http://sarapearce.net/wp-content/uploads/2016/03/Lines.png");
+    width: 72px;
+    height: 72px;
+}
+
+.pipe-action li {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.pipe-action {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+//ids
+#bay {
+    padding-left: 10%;
+}
+
+#counter {
+    text-align: center;
+}
+
+#content-sidebar {
+    background: url("http://sarapearce.net/wp-content/uploads/2016/03/NuclearImage_02.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+#questions-list {
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+#questions-list li {
+    display: inline;
+}
+
+#pipes-top {
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#pipes-bottom {
+    height: 75px;
+    width: 100%;
+}
+
+#main-header {
+    background: url("http://sarapearce.net/wp-content/uploads/2016/03/MoneyBanner.jpg");
+    width: 100%;
+    margin-top: 0px;
+} 
+
+#header-text {
+    font-size: 48pt;
+    color: white;
+    margin-top: -6px;
+    text-align: center;
+    padding-top: 31px;
+    word-wrap: break-word;
+}
+
+#primary {
+    background: white;
+}
+
+#sponsor {
+    text-align: center;
+    color: black;
+}
+
+#sponsor:hover {
+    color: black;
+}
+
+#smartcountdown-2 {
+    text-align: center;
+}
+
+#call-to-action {
+    background: grey;
+    color: white;
+    text-align: center;
+}
+
+#petition-button {
+    background: url("http://sarapearce.net/wp-content/uploads/2016/03/button_clean.png") no-repeat scroll 0 0 transparent;
+    width: 584px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#petition-button:hover {
+    background: url("http://sarapearce.net/wp-content/uploads/2016/03/button_rollover_clean.png") no-repeat scroll 0 0 transparent;
+    width: 584px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#silence {
+    text-align: center;
+    padding-top: 50px; 
+    font-weight: 300;
+    font-size: 40pt;
+    margin-top: 0px;
+}
+
+
+#copy h2 {
+    margin-left: 5%;
+    padding-top: 25px;
+}
+
+#take-action {
+    color: #810113; 
+    text-align: center;
+    font-size: 45pt;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#ticking {
+    color: black; 
+    text-align: center; 
+    font-size: 48pt;
+}
+
+@media screen and (min-width: 673px) {
+    .content-sidebar {
+	border: 0;
+	padding: 48px 30px 24px 15px;
+	position: relative;
+	width: 100%;
+    }
+    .site-content {
+	margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    .site-content {
+	margin-right: 0px;
+	margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .site-content {
+	margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 846px) {
+    .content-area {
+	padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 783px) {
+    .masthead-fixed .site-main {
+	margin-top: 0px;
+    }
+}
+
+

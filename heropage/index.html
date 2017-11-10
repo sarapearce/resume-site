@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<title>Super Hero Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+	<script type="text/javascript" src="js/dynamic.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/stylesheets/screen.css"></link>
+    </head>
+    <body>
+	<!--top navigation header-->
+	<nav>
+	    <table>
+		<tr>
+		    <td>
+			<img id="header_logo" class="logo" src="images/justice_league_logo.jpg" href="http://wikipedia.org/" />
+		    </td>
+		    <td>
+		    </td>
+		    <td>
+			<a id="aquaman" class="link" href="http://www.imdb.com/title/tt1477834/" alt="aquaman" target="_blank">
+			    Aquaman
+			</a>
+
+		    </td>
+		    <td>
+			<a id="wonder_woman" class="link" href="http://www.imdb.com/title/tt0451279/" alt="wonder woman" target="_blank">
+			    Wonder Woman
+			</a>
+		    </td>
+		    <td>
+			<a id="superman" class="link" href="http://www.imdb.com/title/tt0348150/?ref_=fn_al_tt_6" alt="superman" target="_blank">
+			    Superman
+			</a>
+		    </td>
+		    <td>
+			<a id="batman" class="link" href="http://www.imdb.com/title/tt0372784/?ref_=fn_al_tt_5" alt="batman" target="_blank">
+			    Batman
+			</a>
+		    </td>
+		    <td>
+			<a id="the_flash" class="link" href="http://www.imdb.com/title/tt3107288/?ref_=nv_sr_5" alt="the flash" target="_blank">
+			    The Flash
+			</a>
+		    </td>
+		    <td>
+			<a id="green_lantern" class="link" href="http://www.imdb.com/title/tt1133985/?ref_=nv_sr_1" alt="green lantern" target="_blank">
+			    Green Lantern
+			</a>
+		    </td>
+		    <td>
+			<a id="martian_manhunter" class="link" href="http://moviepilot.com/posts/2805711" alt="martian manhunter" target="_blank">
+			    Martian Manhunter
+			</a>
+		    </td>
+		    <td></td>
+		    <td>
+			<div id="contact_batman">
+			    <button>Contact Batman</button>
+			</div>
+		    </td>
+		</tr>
+		<tr>
+		    <td></td>
+		    <td></td>
+		    <!--containers for header arrow--> 
+		    <td id="aquaman_arrow_container">
+			<!--hidden arrow for header-->
+			<div id="green_arrow" class="arrow-up hidden"></div>
+			<!--<img id="green_arrow" class="hidden" src="images/header_arrow.jpg">-->
+		    </td>
+		    <td id="wonder_woman_arrow_container"></td>
+		    <td id="superman_arrow_container"></td>
+		    <td id="batman_arrow_container"></td>
+		    <td id="the_flash_arrow_container"></td>
+		    <td id="green_lantern_arrow_container"></td>
+		    <td id="martian_manhunter_arrow_container"></td>
+		</tr>
+	    </table>
+
+	</nav>
+
+	<div id="main_content">
+	    <div class="chart"></div>
+	    <!--hero pic-->
+	    <div id="hero">
+		<h1>Justice League</h1>
+		<img id="hero_img" alt="justice league" src="images/justice_league_hero.jpg" />
+	    </div>
+	    <section id="group_pics">
+		<h1>What can the Justice League do for you?</h1>
+		<table align="center">
+		    <tr>
+			<td id="corruption">
+			    <img id="corruption_img" class="rounded" alt="justice league" src="images/jleague_flying.jpg"/>
+			</td>
+			<td id="aliens">
+			    <img id="aliens_img" class="rounded" alt="aliens" src="images/JL_aliens.jpeg" />
+			</td>
+			<td id="run">
+			    <img id="run_img" class="rounded" alt="run" src="images/running_group.jpg" />
+			</td>
+			<td id="band">
+			    <img id="band_img" class="rounded" alt="band" src="images/league_band.png" />
+			</td>
+		    </tr>
+		    <tr>
+			<td>
+			    <h3>They can rid your city of corruption</h3>
+			</td>
+			<td>
+			    <h3>They can fight the aliens</h3>
+			</td>
+			<td>
+			    <h3>They can run and fly</h3>
+			</td>
+			<td>
+			    <h3>They can play in a band</h3>
+			</td>
+		    </tr>
+		</table>
+	    </section>
+
+	    <div id="gibberish">
+		<h1 id="gibberish_text">What is $this->gibberish?</h1>
+		<table>
+		    <tr>
+			<td>
+			    <p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Vestibulum enim metus, volutpat eu pharetra ut, consecte tur 
+				quis augue. Pellentesque habitant morbi tristique senectus et netus 
+				et malesuada fames ac turpis egestas. Interdum et malesuada fames ac 
+				ante ipsum primis in.
+			    </p>
+			</td>
+			<td>
+			    <p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Vestibulum enim metus, volutpat eu pharetra ut, consectetur 
+				quis augue. Pellentesque habitant morbi tristique senectus et 
+				netus et malesuada fames ac turpis egestas. Interdum et malesuada 
+				fames ac ante ipsum primis in.
+			    </p>
+			</td>
+			<td></td>
+		    </tr>
+		    <tr>
+			<td></td>
+			<td></td>
+			<td>
+			    <a href="http://www.dccomics.com/" target="_blank"><button id="go_to_dc" alt="go to dc">DC Comics</button></a>
+			</td>
+		    </tr>
+		</table>
+	    </div>
+	</div>
+	<!--signature in footer-->
+	<footer>
+	    <table>
+		<tr>
+		    <td><a id="footer_logo_href" href="https://en.wikipedia.org/wiki/Justice_League">
+			    <img class="logo" alt="logo" src="images/justice_league_logo.jpg"  />
+			</a></td>
+		    <td><a href="https://twitter.com/batman" target="_blank">
+			    <img id="twitter" class="social" src="images/Twitter.png" alt="twitter" />
+			</a></td>
+		    <td><a href="https://www.facebook.com/JusticeLeague/" target="_blank">
+			    <img id="facebook" class="social" src="images/Facebook.png" alt="facebook"/>
+			</a></td> 
+		    <td><a href="https://www.pinterest.com/explore/justice-league/" target="_blank">
+			    <img id="pintrest" class="social" src="images/Pinterest.png" alt="pintrest" />
+			</a></td> 
+		    <td><a href="https://plus.google.com/communities/103830253041764407113" target="_blank">
+			    <img id="google_plus" class="social" src="images/Google-Plus.png" alt="google plus"/>
+			</a></td> 
+		</tr>
+	</footer>
+    </body>
+</html>

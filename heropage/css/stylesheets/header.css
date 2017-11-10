@@ -1,0 +1,71 @@
+/*header classes and styles*/
+/* line 3, ../sass/header.scss */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  border-bottom: 2px solid #ccc;
+  height: 66px;
+  width: 100%;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 15, ../sass/header.scss */
+nav a {
+  font-family: 'HelveticaNeue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+  color: black;
+  text-decoration: none;
+}
+
+/* line 21, ../sass/header.scss */
+nav a:hover {
+  color: red;
+}
+
+/* line 25, ../sass/header.scss */
+nav td {
+  padding: 0px 10px 0px 10px;
+}
+
+/* line 30, ../sass/header.scss */
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid green;
+}
+
+/* line 39, ../sass/header.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+}
+
+/* line 48, ../sass/header.scss */
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid green;
+}
+
+/* line 57, ../sass/header.scss */
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid blue;
+}
+
+/* line 67, ../sass/header.scss */
+#contact_me {
+  float: right;
+}
