@@ -7,7 +7,6 @@ Architecture: <br>
 Wordpress: https://wordpress.org/download (current version)<br>
 
 Layout: <br>
-Beaver Builder Pro https://www.wpbeaverbuilder.com/ <br>
 Beaver Builder Header and Footer https://wordpress.org/plugins/bb-header-footer/installation/ <br>
 Beaver Builder Pro Plugin https://www.wpbeaverbuilder.com/ <br>
 Use Any Font https://wordpress.org/plugins/use-any-font/ <br>
