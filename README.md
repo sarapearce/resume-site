@@ -1,9 +1,8 @@
 <em>What Is This Project?</em> <br>
 
-This is my current portfolio site, made out of Wordpress with a Beaver Builder front end. Feel free to report any issues you see to me at sarapearce3.14@gmail.com.
+It is an ongoing website improvement project for my interactive resume.
 
 <em>Contributing Tech</em> <br>
-
 Architecture: <br>
 Wordpress: https://wordpress.org/download (current version)<br>
 
