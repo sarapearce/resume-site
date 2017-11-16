@@ -18,6 +18,6 @@ Wordfence https://www.wordfence.com/ <br>
 Performance: <br>
 Tiny PNG https://wordpress.org/plugins/tiny-compress-images/ <br> 
 
-# portfolio-site
-Components of source code for portfolio site hosted at http://sarapearce.net
+# resume-site
+Components of source code for resume site hosted at http://sarapearce.net
 
